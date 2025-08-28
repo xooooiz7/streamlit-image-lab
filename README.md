@@ -36,8 +36,35 @@
     ```bash
     streamlit run app.py
 
-![Input Panel](docs/1.jpeg)
-![Webcam Running](docs/2.jpeg)
-![Gray CLAHE](docs/3.jpeg)
-![Canny Edge](docs/4.jpeg)
-![Histogram](docs/5.jpeg)
+
+### 1. Input Panel
+![Input Panel](docs/1.jpeg)  
+**Input** สำหรับเลือก Source ของรูปภาพ (Webcam / Upload / URL / Sample)  
+พร้อมปุ่มควบคุมกล้อง เช่น เปิด–ปิด, Reset stream, Clear capture
+
+---
+
+### 2. Webcam Running
+![Webcam Running](docs/2.jpeg)  
+ตัวอย่างการเปิด **Webcam** และแสดงผลภาพสดจากกล้องในแอป พร้อมปุ่ม Capture / Re-capture เพื่อเก็บภาพใช้งานต่อ
+
+---
+
+### 3. Gray CLAHE
+![Gray CLAHE](docs/3.jpeg)  
+ตัวอย่าง **Image Processing** แบบ Grayscale พร้อมใช้เทคนิค **CLAHE** เพื่อเพิ่ม contrast ให้เห็นรายละเอียดชัดเจน  
+ภาพแสดง Before (Gray base) เทียบกับ After (CLAHE Enhanced)
+
+---
+
+### 4. Canny Edge Detection
+![Canny Edge](docs/4.jpeg)  
+ตัวอย่างการใช้ **Canny Edge Detection** ตรวจจับเส้นขอบของวัตถุ  
+ด้านซ้ายเป็นภาพต้นฉบับ, ด้านขวาเป็นผลลัพธ์เส้นขอบหลังประมวลผล
+
+---
+
+### 5. Histogram
+![Histogram](docs/5.jpeg)  
+ตัวอย่าง **Histogram** ของภาพที่ประมวลผลแล้ว  
+แสดงการกระจายของค่า pixel intensity เพื่อใช้วิเคราะห์คุณสมบัติของรูป
