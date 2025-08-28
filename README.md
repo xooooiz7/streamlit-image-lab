@@ -1,6 +1,6 @@
 # Explore the Rapid Prototype in AI Project
 
-โปรเจกต์นี้พัฒนาด้วย **Streamlit** เพื่อตอบโจทย์การสร้าง Rapid Prototype ด้าน AI/Computer Vision โดยมีฟีเจอร์ครบตามที่อาจารย์กำหนด
+โปรเจกต์นี้พัฒนาด้วย **Streamlit** เพื่อตอบโจทย์การสร้าง Rapid Prototype ด้าน AI/Computer Vision 
 
 ---
 
