@@ -35,3 +35,9 @@
     pip install -r requirements.txt
 4. รันแอป
     streamlit run app.py
+
+![Input Panel](docs/1.jpeg)
+![Webcam Running](docs/2.jpeg)
+![Gray CLAHE](docs/3.jpeg)
+![Canny Edge](docs/4.jpeg)
+![Histogram](docs/5.jpeg)
