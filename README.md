@@ -15,9 +15,6 @@
 - ปรับ **Parameter** ได้ผ่าน GUI เช่น kernel size, threshold, brightness/contrast
 - แสดงผล **Before → After** เทียบกันแบบ side-by-side
 - แสดง **Histogram** ของภาพที่ประมวลผลแล้วแบบอัตโนมัติ
-- Layout สองฝั่ง:  
-  - **ซ้าย:** เลือกแหล่งภาพและควบคุมกล้อง  
-  - **ขวา:** ปรับแต่งการประมวลผล + ดูผลลัพธ์ + Histogram
 
 ---
 
@@ -25,8 +22,8 @@
 
 1. Clone repo นี้
    ```bash
-   git clone <your_repo_url>
-   cd <your_repo_name>
+   git clone https://github.com/xooooiz7/streamlit-image-lab.git
+   cd streamlit-image-lab
 2. สร้าง virtual environment
     python3 -m venv venv
     source venv/bin/activate   # macOS / Linux
