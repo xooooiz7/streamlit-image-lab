@@ -36,6 +36,7 @@
     ```bash
     streamlit run app.py
 
+### ภาพตัวอย่างการทำงาน
 
 ### 1. Input Panel
 ![Input Panel](docs/1.jpeg)  
