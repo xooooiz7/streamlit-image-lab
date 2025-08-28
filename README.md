@@ -25,12 +25,15 @@
    git clone https://github.com/xooooiz7/streamlit-image-lab.git
    cd streamlit-image-lab
 2. สร้าง virtual environment
+    ```bash
     python3 -m venv venv
     source venv/bin/activate   # macOS / Linux
     venv\Scripts\activate      # Windows
 3. ติดตั้ง dependency
+    ```bash
     pip install -r requirements.txt
 4. รันแอป
+    ```bash
     streamlit run app.py
 
 ![Input Panel](docs/1.jpeg)
